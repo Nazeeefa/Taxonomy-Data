@@ -2,8 +2,8 @@
 
 A Python script that searches taxonomy database (maintained by European Nucleotide Archive browser*), based on taxonomy ID, and retains data to form a lineage path.
 
-lineage.py requires download of a file.
-lineage_ftp.py doesn't :)
+lineage.py requires download of a file. <br />
+lineage_ftp.py doesn't :) <br />
 
 Output (Example): 
 
