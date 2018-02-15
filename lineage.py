@@ -3,16 +3,13 @@
 import sys
 import re
 
-# Following module can be used for fetching data directly from the EBI's taxonomy database
-# import urllib.request
-
 '''
   Title: lineage.py
   Date: 2018-02-15
   Author: Nazeefa Fatima
 
 Description:
-  The program works as an application that 
+  The script parses taxononmy data based on arbitrary number which in this case is taxonomy ID and retains lineage path.
 
 List of function(s):
   searchData
@@ -21,13 +18,16 @@ List of "non-standard" modules:
 	None.
   
 Procedure:
-
-	  . Read taxonomy database file - available to download from: https://www.ebi.ac.uk/ena/browse/taxonomy-download
-	  . Store IDs, parent IDs, rank names, and scientific names to dictionaries
-	  . Store each dictionary to a list, 
+	  . Download taxonomy data (file name: taxonomy.data) via FTP: https://www.ebi.ac.uk/ena/browse/taxonomy-download
+	  . Run the script (see usage).
+How it works (summary):
+	  . Stores IDs, parent IDs, rank names, and scientific names to dictionaries
+	  . Stores each dictionary to a list
+	  . Searches database using parent ID as an ID for a next entry.
+	  . Checks that a parent ID for a rank name and a scientific name are same to ensure correct names are printed
 
 Usage:
-		./lineage.py taxonomy.dat
+	./lineage.py taxonomy.dat
 ''' 
 
 bashInput = sys.argv
