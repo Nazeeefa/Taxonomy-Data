@@ -6,4 +6,4 @@ Output:
 
 Lineage: species: Homo sapiens; genus: Homo; subfamily: Homininae; family: Hominidae; superfamily: Hominoidea; parvorder: Catarrhini; infraorder: Simiiformes; suborder: Haplorrhini; order: Primates; superorder: Euarchontoglires; class: Mammalia; superclass: Sarcopterygii; subphylum: Craniata; phylum: Chordata; kingdom: Metazoa; superkingdom: Eukaryota
 
-* ftp://ftp.ebi.ac.uk/pub/databases/taxonomy/taxonomy.dat
+* https://www.ebi.ac.uk/ena/browse/taxonomy-download
