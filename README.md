@@ -1,4 +1,4 @@
-# Trace Back
+# TraceBack
 
 A Python script that searches taxonomy database (maintained by European Nucleotide Archive browser**), based on taxonomy ID, and retains data to form a lineage path.
 
